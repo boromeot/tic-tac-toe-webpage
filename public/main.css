@@ -1,0 +1,38 @@
+/* Your code here */
+body {
+  background-color: seashell;
+}
+
+h1 {
+  text-align: center;
+}
+
+.outcome {
+  text-align: center;
+  visibility: hidden;
+}
+
+.container {
+  margin: auto;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  width: 350px;
+  height: 350px;
+  border: 1px solid black;
+  background-color: blanchedalmond;
+}
+
+.cell {
+  border: 1px solid cornflowerblue;
+}
+
+.btn-container {
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+
+.btn {
+  padding: 20px;
+}
